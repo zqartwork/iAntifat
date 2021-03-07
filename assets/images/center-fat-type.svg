@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="475" height="475" viewBox="0 0 475 475">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbd3d4"/>
+      <stop offset="1" stop-color="#88b6f3"/>
+    </linearGradient>
+    <filter id="Ellipse_10" x="0" y="0" width="475" height="475" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="center-fat-type" transform="translate(-311 -260)">
+    <g transform="matrix(1, 0, 0, 1, 311, 260)" filter="url(#Ellipse_10)">
+      <circle id="Ellipse_10-2" data-name="Ellipse 10" cx="192.5" cy="192.5" r="192.5" transform="translate(35 30)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(435.659 347.187)">
+      <path id="Path_44" data-name="Path 44" d="M2452.381,4604.4a30.668,30.668,0,1,1-30.672-30.657A30.666,30.666,0,0,1,2452.381,4604.4Z" transform="translate(-2318.595 -4573.746)" fill="#fff"/>
+      <g id="Group_9" data-name="Group 9" transform="translate(0 66.327)">
+        <g id="Group_8" data-name="Group 8" transform="translate(0 0)">
+          <path id="Path_45" data-name="Path 45" d="M2368.456,4823.985c-7.048-21.364-33.527-37.454-54.317-37.454h-45.5c-20.782,0-47.264,16.089-54.312,37.454-9.395,28.477-27.218,43.671-25.99,73.367h23.622c-.726-24.278,15.985-36.623,20.433-60.287.307-1.656,2.277-2.988,4.381-2.988s3.578,1.333,3.307,2.988c-3.861,23.664-23.48,48.349-22.843,72.627,1.034,38.98,23.243,46.566,35.862,81.352h32.247c-1.391-24.424-2.168-17.26-2.66-44.279-.064-3.528,3.7-6.405,8.4-6.405s8.47,2.877,8.409,6.405c-.5,27.019-.673,19.854-2.069,44.279h32.249c12.625-34.785,36.445-39.831,37.465-78.811.74-24.245-20.482-51.443-24.34-75.071-.271-1.658,1.188-3,3.3-3s4.085,1.342,4.393,3c4.894,24.893,17.915,36.643,20.744,60.189h23.531C2386.51,4866.819,2377.849,4852.461,2368.456,4823.985Z" transform="translate(-2188.274 -4786.531)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

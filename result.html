@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>數據結果分析</title>
+    <!--google plus info-->
+    <meta itemprop="name" content="{網頁標題}">
+    <meta itemprop="image" content="[網頁縮圖_1200x628]">
+    <meta name="description" content="{網頁內容敘述}" />
+    <!--FB info-->
+    <meta property="og:title" content="{網頁標題}" />
+    <meta property="og:site_name" content="[網站名稱]" />
+    <meta property="og:url" content="[網頁網址_URL]">
+    <meta property="og:image" content="[網頁縮圖_1200x628]">
+    <meta property="og:description" content="{網頁內容敘述}">
+    <meta property="og:type" content="website" />
+    <!--Favicon-->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!-- wow animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- main-style -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- NAV -->
+        <nav class="wow slideInLeft">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.svg" alt="" class="">
+            </a>
+            <span class="long-dec"></span>
+            <span class="dot-dec"></span>
+        </nav>
+        <!-- SECTION01 -->
+        <section class="section section-1">
+            <div class="container kv wow fadeInUp">
+                <div class="result-wrap">
+                    <div class="result-img">
+                        <img src="assets/images/center-fat-type.svg" alt="">
+                    </div>
+                    <div class="result-form">
+                        <div class="table table1">
+                            <div class="th">聯絡資料</div>
+                            <div class="td">
+                                <div class="row">
+                                    <div class="col w-40">
+                                        <span class="txt">姓名</span>
+                                        <input type="text" name="name" id="name">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col w-40">
+                                        <span class="txt">連絡電話</span>
+                                        <input type="number" name="phone" id="phone">
+                                    </div>
+                                    <div class="col-divi"></div>
+                                    <div class="col w-60">
+                                        <span class="txt">E-MAIL</span>
+                                        <input type="email" name="email" id="email">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col w-20">
+                                        <span class="txt">地區</span>
+                                        <div class="custom-select-simple">
+                                            <select name="city" id="city">
+                                                <option value="none">請選擇</option>
+                                                <option value="taipei">台北市</option>
+                                                <option value="taipei">新北市</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-divi"></div>
+                                    <div class="col w-80">
+                                        <span class="txt">詳細地址</span>
+                                        <input type="text" name="phone" id="phone">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CORNER TAG -->
+                <div class="corner-tag">
+                    <div class="corner-line-positioner">
+                        <span class="dot-dec"></span>
+                        <span class="long-dec"></span>
+                        <div class="corner-txt">
+                            諮詢專線:03-4333888 <br>
+                            愛半月體重管理團隊關心您
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BG SECTION -->
+        <div class="bg-deco-wrap">
+            <div class="img-wrap">
+                <img src="assets/images/bg-brick-left.svg" alt="" class="bg-b-left wow slideInLeft">
+                <img src="assets/images/bg-brick-right.svg" alt="" class="bg-b-right wow slideInRight">
+            </div>
+        </div>
+        
+    </div>
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <!-- FontAwesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <!-- wow.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- custom.js -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- JQ 掛載點 -->
+    <script>
+        $(document).ready(function() {
+            new WOW().init();
+        });
+    </script>
+
+</body>
+
+</html>
