@@ -7,7 +7,7 @@ $(document).ready(function(){
     if ($(window).height() < 800) {
         $('.kv').css({
             'height': '100%',
-            'margin-top': $('nav').innerHeight() - 100 + 'px'
+            'margin-top': $('nav').innerHeight() - 150 + 'px'
         })
     }
     $('.kv, .form').css({
