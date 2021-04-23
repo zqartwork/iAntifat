@@ -12,7 +12,7 @@ em {
     font-weight: bold;
 }
 .txt-red {
-    color: $deep-pink;
+    color: $deep-pink !important;
 }
 nav {
     position: fixed;
@@ -56,7 +56,9 @@ nav {
     background-color: $deep-pink;
     margin-right: 20px;
 }
-.form {
+form {
+    display: block;
+    padding-bottom: 3.2rem;
 }
 .kv {
     padding: .5rem 0;
@@ -266,22 +268,46 @@ nav {
     font-size: 1.5rem;
 
     width: 20%;
+    line-height: 1.6;
+    text-align: center;
 }
+.light .th {
+    background-color: $deep-gold;
+}
+
+
+
 .td {
     background-color: $deep-bg;
     width: 80%;
     padding: 0 1.5rem;
+    &.light {
+        padding: 0;
+
+        .row {
+            padding: 0 1.5rem ;
+        }
+    }
+    
 }
 .row {
     display: inline-flex;
     align-items: center;
     width: 100%;
+    &.light {
+        background-color: $deep-gold;
+        .col .txt {
+            color: $white;
+        }
+    }
 }
+
 .col {
     display: inline-flex;
     align-items: center;
     padding: 1.5rem 0;
     width: 50%;
+
     &.w-20 {
         width: 20%;
     }
@@ -299,6 +325,9 @@ nav {
     }
     &.w-80 {
         width: 80%;
+    }
+    &.w-100 {
+        width: 100%;
     }
     .txt {
         color:  $gray;
@@ -344,6 +373,7 @@ input[type=number] {
     display: inline-flex;
     height: 2.5rem;
     width: 2px;
+    min-width: 2px;
     background-color: $gray;
     opacity: .5;
     margin: 0 1.5rem;
