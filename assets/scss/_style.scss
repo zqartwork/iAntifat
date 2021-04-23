@@ -1,6 +1,9 @@
 html {
     background-color: $bg;
 }
+a {
+    text-decoration: none;
+}
 #app {
     height: auto;
     overflow: unset;
@@ -358,6 +361,11 @@ form {
         }
     }
 }
+textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+}
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -434,4 +442,84 @@ input[type=number] {
   .custom-radio input:checked ~ .checkmark:after {
     display: block;
   }
+
+  
+/*
+-----
+Modal
+-----
+*/
+
+.modal {
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    min-height: 100vh;
+    width: 100vw;
+    z-index: 101;
+    background-color: $b60;
+    font-size: 1.4rem;
+
+    display: none;
+}
+.modal-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+.modal-panel {
+    position: relative;
+    z-index: 1;
+    height: auto;
+    width: calc(100% - 3rem);
+    max-width: 80rem;
+
+    margin: 0 auto;
+    background-color: $trans;
+    border-radius: 5px;
+
+    padding: 2rem 0;
+}
+.modal-title {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.modal-subtitle {
+    font-size: 1.4rem;
+}
+.modal-header, .modal-body, .modal-footer {
+    padding: 0 2rem;
+}
+.divi-wide {
+    height: 1px;
+    width: 100%;
+    background-color: $gray20;
+    margin: 2rem 0;
+}
+.modal-close-btn {
+    position: absolute;
+    right: -0rem;
+    top: -0rem;
+    z-index: 1;
+    img {
+        cursor: pointer;
+    }
+}
+.modal-footer {
+    text-align: right;
+}
+
+// Modal end
   
