@@ -46,6 +46,7 @@
         padding-bottom: 2rem;
         text-align: center;
     }
+    
 }
 @media(max-width: 768px){
     .pic-wrap {
@@ -64,6 +65,15 @@
         right: unset;
         bottom: unset;
         padding-bottom: 2rem;
+    }
+    .table {
+        flex-direction: column;
+    }
+    .th {
+        padding: 2rem 0;
+    }
+    .th,.td {
+        width: 100%;
     }
 };
 @media(max-width: 500px){};

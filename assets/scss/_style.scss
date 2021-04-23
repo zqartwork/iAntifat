@@ -252,6 +252,7 @@ form {
 }
 .table {
     display: flex;
+    flex-direction: row;
     border-radius: 10px;
     overflow: hidden;
     -webkit-backface-visibility: hidden;
