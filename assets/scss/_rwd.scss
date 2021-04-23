@@ -29,7 +29,12 @@
     }
     .col,
     .col input#name, .col select#name, .col .custom-select-simple#name {
-        width:  100% !important;
+            width:  100% !important;
+    }
+    .light {
+        .col, .col input#name, .col select#name, .col .custom-select-simple#name {
+            width:  50% !important;
+    }
     }
     .col-divi {
         display: none
